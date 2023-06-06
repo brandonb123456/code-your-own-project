@@ -7,3 +7,4 @@ response = requests.get(URL)
 response.raise_for_status()
 data = response.json()
 print(f"\nText returned: {response.text}")
+
